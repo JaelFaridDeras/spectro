@@ -1,0 +1,159 @@
+.label{
+    margin: 0px 0px !important;
+    font-size: 15px;
+}
+body{
+    background:#ffffff;
+}
+
+.select{
+    height: 33.5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ced4da;;
+    border-radius: 5px;
+    padding: 0 25px 0 10px;
+    font-size: 14px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.1);
+}
+
+.input-gen{
+    font-size: 15px !important;
+}
+
+.datepicker{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s
+}
+
+.modalBack{
+    z-index: 1060;
+}
+
+.modalItem{
+    z-index: 1065;
+}
+
+.lineaNab {
+    border-bottom: 10px solid #00754a 
+}
+
+.cardHeaderNone{
+    display: none;
+}
+
+.titleHeader{
+    color: #000000
+}
+.titleHeader:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.link-card{
+    color: #000000
+}
+
+.link-card:hover{
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+.padre-estructura {
+    display: none;
+}
+
+.status-check{
+    text-transform:lowercase
+}
+
+.status-check:first-letter{
+    text-transform: capitalize;
+}
+
+.input-table-rec{
+    font-size: 12px !important;
+    max-height: 25px !important
+}
+.show-lable {
+    display: none;
+}
+
+.delete-buttom-rec{
+    padding: 2px 6px;
+    font-size: 12px;
+}
+
+/* scrollbar stilos en la pagina */
+::-webkit-scrollbar {
+    width: 10px;     /* Tamaño del scroll en vertical */
+    height: 10px;    /* Tamaño del scroll en horizontal */
+    display: block;  /* Ocultar scroll */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+
+    outline: 0 !important;
+    outline-offset: 0  !important;
+    background-image: none  !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+}
+
+.fechas-label{
+    display: none !important;
+}
+
+.cliente-ot-modal{
+    cursor: pointer;
+}
+
+.cliente-ot-modal:hover{
+    color: #0d6efd;
+}
+
+.buton-table{
+    font-size: 12px !important;
+    padding: 2px 4px !important;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    border-color: #198754;
+    padding-right: calc(1.5em + .75rem);
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-position: right calc(.375em + .1875rem) center;
+    background-size: calc(.75em + .375rem) calc(.75em + .375rem);
+}

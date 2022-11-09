@@ -1,0 +1,112 @@
+.cards{
+    background-color: #F4F6F6;
+    opacity: .7;
+    width: 100%;    
+}
+
+.ul{
+    list-style: none;
+    line-height: 3ex;
+}
+.li{
+    padding-bottom: 2ex;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+    
+}
+.p{
+    color: #0000ff;
+}
+.aling{
+    align-self: center;
+    text-align: center;
+}
+.border{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(49, 49, 49, 0.2);
+}
+.bg{
+    background-color: rgba(12, 11, 11, 0) ;
+}
+.content {
+    padding: 16px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+    padding-top: 60px;
+}
+.n{
+    z-index: 20000;
+}
+.sicon{
+    font-size: 55px;
+    margin-left: 25px;
+}
+.iColor{
+    color: #4545a6;
+}
+
+.iColor:hover{
+    color: #7070fc;
+}
+
+.iColorArriba{
+    color: #28913b;
+}
+
+.iColorArriba:hover{
+    color: #26d847
+}
+
+.iColorDelete{
+    color: #D10E0E;
+}
+
+.iColorDelete:hover{
+    color: #ff3a3a;
+}
+.arrowPx{
+    font-size: 20px;
+}
+.arrowPx:hover{
+    cursor: pointer;
+}
+
+.tableDelete{
+    background-color: rgba(239, 13, 13, 0.362);
+}
+.tableGuide{
+    background-color: rgba(252, 221, 67);
+}
+
+.arrow-reset{
+    color: #0b3abb;
+}
+
+.arrow-reset:hover{
+    color: #235bf7;
+}
+
+.cuadrar-linea-buttom{
+    margin-left: 20px;
+}
+
+.cuadrar-linea-top{
+    margin-right: 20px;
+}
+
+.dataStule{
+    margin-top: 20px;
+}
+.lineStyle{
+    margin-top: -30px;
+}
+.top{
+    margin: 0px 1000px 0px 0px; /* 10px arriba, 3px derecha, 30px abajo, 5px izquierda */
+}
